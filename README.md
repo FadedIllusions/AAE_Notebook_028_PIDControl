@@ -100,5 +100,5 @@ The area between the commanded thrust and the engine limitation thrust is called
 We want to minimize this windup area, which means that we want to reduce the time it takes to reverse command when the error changes sign, to stop the integrator from increasing its output value. A way to do that is to use “clamping,” which essentially turns the integrator off when we don’t want it to integrate any longer.
 
 ### Resources:
-![Wikipedia - Integral Windup](https://en.wikipedia.org/wiki/Integral_windup)
-![20-Sim Simulator](http://www.20sim.com/webhelp/library_signal_control_pid_control_antiwindup.php)
+[Wikipedia - Integral Windup](https://en.wikipedia.org/wiki/Integral_windup)
+[20-Sim Simulator](http://www.20sim.com/webhelp/library_signal_control_pid_control_antiwindup.php)
